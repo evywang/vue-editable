@@ -1,8 +1,7 @@
 # vue-editable
 
 基于vuejs的快速可编辑插件,QQ讨论群: 240319632。
-
- 
+#修改IE 上导致Vue patchVnode失败的问题
 
 ![](http://ww1.sinaimg.cn/large/823603acgw1ez9njhopgwg20dv07iq61.gif)
  
@@ -37,7 +36,8 @@ module.exports = {
             that.$editable(e,function(value){
                 // 这里做ajax请求
                 //如果数据没有被修改这个回调方法不会执行
-            });
+            },  // 自定义input样式
+            {font-size:14px});
         }
     }
 }
