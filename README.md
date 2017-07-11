@@ -2,20 +2,21 @@
 
 基于vuejs的快速可编辑插件,QQ讨论群: 240319632。
 
-# 修改
+## 修改
 
 修改IE 上导致Vue patchVnode失败的问题
 
 ![](http://ww1.sinaimg.cn/large/823603acgw1ez9njhopgwg20dv07iq61.gif)
  
 
-# 引入插件
+## 引入插件
 ```
 var VueEditable= require('./plugins/vue-editable.js');
 Vue.use(VueEditable);
 
 ```
-# 组件上应用
+
+## 组件上应用
 
 ```
 <template>
