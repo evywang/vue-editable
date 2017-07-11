@@ -39,7 +39,6 @@
           if (value != this.value) {
             callback(this.value)
           }
-          input.removeEventListener("blur", action, false);
         };
         input.addEventListener("blur", action, false);
       }
